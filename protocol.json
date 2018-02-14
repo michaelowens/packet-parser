@@ -1,0 +1,141 @@
+{
+  "version": "0.0.1",
+  "client": [
+    {
+      "command": 703,
+      "name": "Client_Login_Handshake"
+    },
+    {
+      "command": 704,
+      "name": "Login_Login_Unknown704",
+      "structure": [
+        {
+          "name": "unknown",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "command": 708,
+      "name": "Client_Login",
+      "structure": [
+        {
+          "name": "passwordHash",
+          "type": "string",
+          "length": 32
+        },
+        {
+          "name": "username",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "command": 710,
+      "name": "Client_Login_Unknown710",
+      "structure": [
+        {
+          "name": "unknown",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "command": 102105,
+      "name": "Server_Login_Server",
+      "structure": [
+        {
+          "name": "server",
+          "type": "raw"
+        }
+      ]
+    },
+    {
+      "command": 102158,
+      "name": "Server_Login_Channel",
+      "structure": [
+        {
+          "name": "channel",
+          "type": "raw"
+        }
+      ]
+    },
+    {
+      "command": 102107,
+      "name": "Server_Login_NextServer",
+      "structure": [
+        {
+          "name": "unkown1",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown2",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown3",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown4",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown5",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown6",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown7",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown8",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown9",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown10",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown11",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown12",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "unkown13",
+          "type": "uint",
+          "length": 1
+        },
+        {
+          "name": "ip",
+          "type": "raw",
+          "trimEnd": 1
+        }
+      ]
+    }
+  ],
+  "server": []
+}
